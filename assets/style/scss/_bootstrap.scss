@@ -1,0 +1,86 @@
+/*!
+ * Bootstrap v5.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+
+@import "functions";
+$primary-dark:  #7E33E0;
+$primary:       #9F63B5;
+$primary-light: #E0D3F5;
+$secondary:     #FB2E86;
+$success:       #05c83c;
+$info:          #36adec;
+$warning:       rgb(255, 191, 0);
+$danger:        rgb(20, 178, 245) ;
+$light:         #f1f1f1 ;
+$dark:          #212121;
+$amir:          #ffeedd;
+$arman: #008000;
+
+// Create your own map
+$theme-colors: (
+  "primary-dark":    $primary-dark,
+  "primary":         $primary,
+  "primary-light":    $primary-light,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "amir": $amir,
+  "arman": $arman,
+);
+
+
+@import "variables";
+@import "mixins";
+@import "utilities";
+
+
+
+// Layout & components
+@import "root";
+@import "reboot";
+@import "type";
+@import "images";
+@import "containers";
+@import "grid";
+//@import "tables";
+@import "forms";
+@import "buttons";
+//@import "transitions";
+@import "dropdown";
+//@import "button-group";
+@import "nav";
+@import "navbar";
+//@import "card";
+//@import "accordion";
+//@import "breadcrumb";
+//@import "pagination";
+//@import "badge";
+@import "alert";
+//@import "progress";
+@import "list-group";
+//@import "close";
+//@import "toasts";
+//@import "modal";
+//@import "tooltip";
+//@import "popover";
+//@import "carousel";
+//@import "spinners";
+//@import "offcanvas";
+//@import "placeholders";
+
+// Helpers
+@import "helpers";
+
+// Utilities
+@import "utilities/api";
+// scss-docs-end import-stack
