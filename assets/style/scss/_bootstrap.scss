@@ -11,16 +11,17 @@
 @import "functions";
 $primary-dark:  #7E33E0;
 $primary:       #9F63B5;
-$primary-light: #E0D3F5;
+$primary-light: #F1F0FF;
 $secondary:     #FB2E86;
 $success:       #05c83c;
 $info:          #36adec;
-$warning:       rgb(255, 191, 0);
-$danger:        rgb(20, 178, 245) ;
+$warning:       #ffbf00;
+$danger:        #14b2f5 ;
 $light:         #f1f1f1 ;
 $dark:          #212121;
-$amir:          #ffeedd;
-$arman: #008000;
+$amir:          #E7E4F8;
+$arman: #EEEFFB;
+$social-media:#151875
 
 // Create your own map
 $theme-colors: (
@@ -36,6 +37,7 @@ $theme-colors: (
   "dark":       $dark,
   "amir": $amir,
   "arman": $arman,
+  "social-media": $social-media,
 );
 
 
