@@ -21,7 +21,8 @@ $light:         #f1f1f1 ;
 $dark:          #212121;
 $amir:          #E7E4F8;
 $arman: #EEEFFB;
-$social-media:#151875
+$social-media:#151875;
+$azur:#212529;
 
 // Create your own map
 $theme-colors: (
@@ -38,6 +39,7 @@ $theme-colors: (
   "amir": $amir,
   "arman": $arman,
   "social-media": $social-media,
+  "azur": $azur,
 );
 
 @import "variables";
