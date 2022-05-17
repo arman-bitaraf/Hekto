@@ -24,6 +24,7 @@ $arman:         #EEEFFB;
 $social-media:  #151875;
 $azur:#212529;
 
+
 // Create your own map
 $theme-colors: (
   "primary-dark":    $primary-dark,
@@ -40,6 +41,7 @@ $theme-colors: (
   "arman": $arman,
   "social-media": $social-media,
   "azur": $azur,
+  
 );
 
 @import "variables";

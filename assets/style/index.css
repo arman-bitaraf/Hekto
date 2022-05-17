@@ -10581,11 +10581,11 @@ fieldset:disabled .btn {
   height: 6px;
 }
 
-.fs-13 {
-  fs-13: 12px;
-  fs-14: 14px;
+/*
+.fs-12{
+  font-size: 12px;
 }
-
+*/
 .border-box {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
