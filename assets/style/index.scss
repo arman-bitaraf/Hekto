@@ -3,3 +3,11 @@
 //:root{
   //  --bs-body-font-family:'Roboto';
 //}
+
+@mixin size($width,$height:$width/1.7) {
+  width:$width;
+  height: $height;
+}
+.tags{
+    @include size(16px,6px);
+}

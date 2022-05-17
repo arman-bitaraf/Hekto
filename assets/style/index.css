@@ -10575,4 +10575,14 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.tags {
+  width: 16px;
+  height: 6px;
+}
+
+.gix {
+  width: 10px;
+  height: 20px;
+}
 /*# sourceMappingURL=index.css.map */
