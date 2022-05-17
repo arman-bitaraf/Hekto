@@ -10581,8 +10581,13 @@ fieldset:disabled .btn {
   height: 6px;
 }
 
-.gix {
-  width: 10px;
-  height: 20px;
+.fs-13 {
+  fs-13: 12px;
+  fs-14: 14px;
+}
+
+.border-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 /*# sourceMappingURL=index.css.map */
