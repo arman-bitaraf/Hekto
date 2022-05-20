@@ -10590,4 +10590,14 @@ fieldset:disabled .btn {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+nav:hover {
+  color: #FB2E86;
+  background-color: aquamarine;
+}
+
+.ratio-3-2 {
+  width: 300px;
+  height: 200px;
+}
 /*# sourceMappingURL=index.css.map */
