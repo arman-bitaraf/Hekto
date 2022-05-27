@@ -9,24 +9,29 @@
 // Configuration
 
 @import "functions";
+$primary-darkest:  #151875;
+$primary-darker:  #3b3d8c;
 $primary-dark:  #7E33E0;
 $primary:       #9F63B5;
-$primary-light: #F1F0FF;
+$primary-light: #f0faff;
+$primary-lighter: #f0faff;
+$primary-lightest: #f0faff;
 $secondary:     #FB2E86;
 $success:       #05c83c;
 $info:          #36adec;
 $warning:       #ffbf00;
-$danger:        #14b2f5 ;
+$danger:        #f51414 ;
 $light:         #f1f1f1 ;
 $dark:          #212121;
 $amir:          #E7E4F8;
 $arman:         #EEEFFB;
-$social-media:  #151875;
 $azur:#212529;
 
 
 // Create your own map
 $theme-colors: (
+  "primary-darkest":$primary-darkest,
+  "primary-darker":$primary-darker,
   "primary-dark":    $primary-dark,
   "primary":         $primary,
   "primary-light":    $primary-light,
@@ -39,7 +44,7 @@ $theme-colors: (
   "dark":       $dark,
   "amir": $amir,
   "arman": $arman,
-  "social-media": $social-media,
+  "social-media": $primary-darkest,
   "azur": $azur,
   
 );
@@ -60,12 +65,12 @@ $theme-colors: (
 //@import "tables";
 @import "forms";
 @import "buttons";
-//@import "transitions";
+@import "transitions";
 @import "dropdown";
 //@import "button-group";
 @import "nav";
 @import "navbar";
-//@import "card";
+@import "card";
 //@import "accordion";
 //@import "breadcrumb";
 //@import "pagination";

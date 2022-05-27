@@ -39,3 +39,32 @@ background-color: aquamarine;
   aspect-ratio: 3 / 2;
 
 }
+.newsletter{
+  background-image: url('../image/subscribe/subscribe-bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.py-newsletter{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.shadow-custom{
+  box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.4);
+}
+
+
+.amirmaghami{
+  overflow: hidden;
+
+}
+.amirmaghami:hover .arman-btn-hover{
+  bottom: 15px;
+}
+
+.arman-btn-hover{
+  transition-duration: .4s;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+}
