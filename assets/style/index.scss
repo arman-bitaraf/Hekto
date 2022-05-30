@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin%20Sans');
 @import './scss/bootstrap';
 //@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 //:root{
   //  --bs-body-font-family:'Roboto';
 //}
+
 @mixin ratio($w:1,$h:1){
  
   aspect-ratio: $w / $h
