@@ -30,11 +30,6 @@ background-color: aquamarine;
 
 }
 
-.ratio-3-2 {
-  width: 300px;
-  height: 200px;
-}
-
 .position-img{
   position: absolute;
   width: 100px;
@@ -70,10 +65,9 @@ background-color: aquamarine;
   left: 0;
   right: 0;
 }
-.arman{
-  
-
+.ratio-1-1{
+  aspect-ratio: 1/1;
 }
-.amir{
-  
+.ratio-3-2{
+  aspect-ratio: 3/2;
 }
