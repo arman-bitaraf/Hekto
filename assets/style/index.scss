@@ -1,3 +1,4 @@
+@import "./icon";
 @import url('https://fonts.googleapis.com/css?family=Josefin%20Sans');
 @import './scss/bootstrap';
 //@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
@@ -70,4 +71,10 @@ background-color: aquamarine;
 }
 .ratio-3-2{
   aspect-ratio: 3/2;
+}
+.my-github{
+  left: 1rem;
+  bottom: 1rem;
+  z-index: $zindex-fixed;
+
 }

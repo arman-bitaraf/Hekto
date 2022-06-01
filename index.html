@@ -10,88 +10,84 @@
     <link rel="stylesheet" href="./assets/style/index.css">
 </head>
 
-<body>
-
+<body class="position-relative">
+<a href="https://github.com/arman-bitaraf/hekto" target="_blank" class="position-fixed my-github fs-2 text-secondary">
+    <i class="icon--github-circled "></i>
+</a>
     <header>
-        <div class="top-navbar bg-primary-light text-white py-2">
+        <div class="top-navbar bg-primary-light text-light py-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="d-flex">
-                            <div class="pe-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                                    <path
-                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
-                                </svg>
-                            </div>
+                    <div class="col-12">
+                        <div class="d-md-flex justify-content-md-between">
+                            <div class="d-flex justify-content-around mb-2 mb-md-0 gap-md-1 gap-lg-3">
 
-                            <div class="pe-5">
-                                <span>info@hekto.com</span>
+                                <a href="mailto:info@hekto.com" class="fs-7 text-decoration-none text-light">
+                                    <i class="icon--mail-alt"></i>
+                                    <span>info@hekto.com</span>
+                                </a>
+
+                                <a href="tel:0049123456" class="fs-7 text-decoration-none text-light">
+                                    <i class="icon--phone"></i>
+                                    <span>(0049)123456</span>
+                                </a>
+
                             </div>
-                            <div class="pe-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-                                </svg>
-                            </div>
-                            <div>
-                                <span>(0049)123456</span>
+                            <div class="">
+                                <div class="d-flex justify-content-evenly gap-md-1 gap-lg-3 align-items-center">
+                                    <div class="dropdown fs-7">
+
+                                        <a href="#" class="text-decoration-none p-0 dropdown-toggle text-light"
+                                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <i class="icon--language-1"></i>
+                                            <span class="d-none d-md-inline ">
+                                                English
+                                            </span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">German</a></li>
+                                            <li><a class="dropdown-item" href="#">French</a></li>
+                                            <li><a class="dropdown-item" href="#">Persian</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown fs-7">
+
+                                        <a href="#" class=" p-0 dropdown-toggle text-light text-decoration-none"
+                                            type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <i class="icon--money"></i>
+                                            <span class="d-none d-md-inline">
+                                                USD
+                                            </span>
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li><a class="dropdown-item" href="#">Euro</a></li>
+                                            <li><a class="dropdown-item" href="#">Toman</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <a href="#" class="text-decoration-none text-light fs-7">
+                                        <i class="icon--login"></i>
+                                        <span class=" d-none d-md-inline">login</span>
+                                    </a>
+                                    <a href="#" class="text-decoration-none text-light fs-7">
+
+                                        <i class="icon--heart"></i>
+                                        <span class="d-none d-md-inline">wishlist</span>
+                                    </a>
+                                    <a href="#" class="text-decoration-none text-light fs-7">
+                                        <i class="icon--grocery-store"></i>
+                                        <span class="d-none d-md-inline">store</span>
+
+
+                                    </a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4"></div>
-                    <div class="col-12 col-md-4">
-                        <div class="d-flex">
-                            <div class="dropdown pe-3">
-                                <button class="btn p-0 dropdown-toggle text-white" type="button"
-                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    English
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">German</a></li>
-                                    <li><a class="dropdown-item" href="#">French</a></li>
-                                    <li><a class="dropdown-item" href="#">Persian</a></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown pe-3">
-                                <button class="btn p-0 dropdown-toggle text-white" type="button"
-                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    USD
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Euro</a></li>
-                                </ul>
-                            </div>
-                            <div class="pe-3">
-                                <a href="#" class="text-decoration-none text-white">login</a>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-person-plus" viewBox="0 0 16 16">
-                                    <path
-                                        d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-                                    <path fill-rule="evenodd"
-                                        d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z" />
-                                </svg>
-                            </div>
-                            <div class="pe-3">
-                                <span>wishlist</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-heart" viewBox="0 0 16 16">
-                                    <path
-                                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
-                                </svg>
-                            </div>
-                            <div class="p-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-cart p-0" viewBox="0 0 16 16">
-                                    <path
-                                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
-                                </svg>
-                            </div>
-                        </div>
 
-                    </div>
                 </div>
             </div>
 
@@ -293,8 +289,8 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="card shadow-sm">
                             <div class="d-flex justify-content-center bg-light ratio-1-1 p-5">
-                                <img src="./assets/image/latest-products/chair-4.png" class="img-fluid"
-                                    title="chair" alt="chair">
+                                <img src="./assets/image/latest-products/chair-4.png" class="img-fluid" title="chair"
+                                    alt="chair">
                             </div>
                             <div class="card-body d-flex justify-content-between">
                                 <div class="card-title text-capitalize text-primary-darkest text-primary-darkest">
@@ -310,8 +306,8 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="card shadow-sm">
                             <div class="d-flex justify-content-center bg-light ratio-1-1 p-5">
-                                <img src="./assets/image/latest-products/chair-1.png" class="img-fluid"
-                                    title="chair" alt="chair">
+                                <img src="./assets/image/latest-products/chair-1.png" class="img-fluid" title="chair"
+                                    alt="chair">
                             </div>
                             <div class="card-body d-flex justify-content-between">
                                 <div class="card-title text-capitalize text-primary-darkest text-primary-darkest">
@@ -327,8 +323,8 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="card shadow-sm">
                             <div class="d-flex justify-content-center bg-light ratio-1-1 p-5">
-                                <img src="./assets/image/latest-products/chair-2.png" class="img-fluid"
-                                    title="chair" alt="chair">
+                                <img src="./assets/image/latest-products/chair-2.png" class="img-fluid" title="chair"
+                                    alt="chair">
                             </div>
                             <div class="card-body d-flex justify-content-between">
                                 <div class="card-title text-capitalize text-primary-darkest text-primary-darkest">
@@ -344,8 +340,8 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="card shadow-sm">
                             <div class="d-flex justify-content-center bg-light ratio-1-1 p-5">
-                                <img src="./assets/image/latest-products/chair-3.png" class="img-fluid"
-                                    title="chair" alt="chair">
+                                <img src="./assets/image/latest-products/chair-3.png" class="img-fluid" title="chair"
+                                    alt="chair">
                             </div>
                             <div class="card-body d-flex justify-content-between">
                                 <div class="card-title text-capitalize text-primary-darkest text-primary-darkest">
@@ -361,8 +357,8 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="card shadow-sm">
                             <div class="d-flex justify-content-center bg-light ratio-1-1 p-5">
-                                <img src="./assets/image/latest-products/chair-5.png" class="img-fluid"
-                                    title="chair" alt="chair">
+                                <img src="./assets/image/latest-products/chair-5.png" class="img-fluid" title="chair"
+                                    alt="chair">
                             </div>
                             <div class="card-body d-flex justify-content-between">
                                 <div class="card-title text-capitalize text-primary-darkest text-primary-darkest">
@@ -378,8 +374,8 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="card shadow-sm">
                             <div class="d-flex justify-content-center bg-light ratio-1-1 p-5">
-                                <img src="./assets/image/latest-products/chair-6.png" class="img-fluid"
-                                    title="chair" alt="chair">
+                                <img src="./assets/image/latest-products/chair-6.png" class="img-fluid" title="chair"
+                                    alt="chair">
                             </div>
                             <div class="card-body d-flex justify-content-between">
                                 <div class="card-title text-capitalize text-primary-darkest text-primary-darkest">
@@ -530,7 +526,7 @@
                         <div class="card h-100 p-3">
                             <div class="bg-accent w-100 p-3">
                                 <img src="./assets/image/trending-products/chair-3.png" class="img-fluid" title="chair"
-                                alt="chair">
+                                    alt="chair">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title text-center text-primary-darkest">Carntlever chair</h5>
@@ -547,7 +543,7 @@
                         <div class="card h-100 p-3">
                             <div class="bg-accent w-100 p-3">
                                 <img src="./assets/image/trending-products/chair-4.png" class="img-fluid" title="chair"
-                                alt="chair">
+                                    alt="chair">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title text-center text-primary-darkest">Cantlever chair</h5>
@@ -564,7 +560,7 @@
                         <div class="card h-100 p-3">
                             <div class="bg-accent w-100 p-3">
                                 <img src="./assets/image/trending-products/chair-5.png" class="img-fluid" title="chair"
-                                alt="chair">
+                                    alt="chair">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title text-center text-primary-darkest">Cantlever chair</h5>
@@ -582,7 +578,7 @@
                         <div class="card h-100 p-3">
                             <div class="bg-accent w-100 p-3">
                                 <img src="./assets/image/trending-products/chair-6.png" class="img-fluid" title="chair"
-                                alt="chair">
+                                    alt="chair">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title text-center text-primary-darkest">Cantlever chair</h5>
@@ -614,7 +610,8 @@
                                 <a href="" class="text-secondary d-block">shop now</a>
                             </div>
 
-                            <img src="./assets/image/Hekto 5/Group-2.png" class="w-50 ms-auto  " title="chair" alt="chair">
+                            <img src="./assets/image/Hekto 5/Group-2.png" class="w-50 ms-auto  " title="chair"
+                                alt="chair">
 
                         </div>
                     </div>
@@ -624,50 +621,51 @@
 
                     <div class="col flex-grow-1 ">
 
-                     <div class="d-md-flex justify-content-md-around flex-lg-column ratio-3-2">
-                        <div class="d-flex align-items-center flex-md-column flex-lg-row">
-                            <div class="flex-shrink-0 bg-accent mb-md-2 mb-lg-0">
-                                <img src="./assets/image/trending-products/image 19.png" alt="...">
-                            </div>
-                            <div class="flex-grow-1 ms-3 ms-md-0 ms-lg-3 text-md-center text-lg-start">
-                                <div class="text-capitalize text-primary-darkest fw-bold">
-                                    executive seat chair
+                        <div class="d-md-flex justify-content-md-around flex-lg-column ratio-3-2">
+                            <div class="d-flex align-items-center flex-md-column flex-lg-row">
+                                <div class="flex-shrink-0 bg-accent mb-md-2 mb-lg-0">
+                                    <img src="./assets/image/trending-products/image 19.png" alt="...">
                                 </div>
-                                <del class="text-primary-darker">
-                                    $32.00
-                                </del>
+                                <div class="flex-grow-1 ms-3 ms-md-0 ms-lg-3 text-md-center text-lg-start">
+                                    <div class="text-capitalize text-primary-darkest fw-bold">
+                                        executive seat chair
+                                    </div>
+                                    <del class="text-primary-darker">
+                                        $32.00
+                                    </del>
+                                </div>
+
+                            </div>
+                            <div class="d-flex align-items-center flex-md-column flex-lg-row my-2 my-md-0 my-lg-2">
+                                <div class="flex-shrink-0 bg-accent mb-md-2 mb-lg-0">
+                                    <img src="./assets/image/trending-products/image 19.png" alt="...">
+                                </div>
+                                <div class="flex-grow-1 ms-3 ms-md-0 ms-lg-3 text-md-center text-lg-start">
+                                    <div class="text-capitalize text-primary-darkest fw-bold">
+                                        executive seat chair
+                                    </div>
+                                    <del class="text-primary-darker">
+                                        $32.00
+                                    </del>
+                                </div>
+
+                            </div>
+                            <div class="d-flex align-items-center flex-md-column flex-lg-row">
+                                <div class="flex-shrink-0 bg-accent mb-md-2 mb-lg-0">
+                                    <img src="./assets/image/trending-products/image 19.png" alt="...">
+                                </div>
+                                <div class="flex-grow-1 ms-3 ms-md-0 ms-lg-3 text-md-center text-lg-start">
+                                    <div class="text-capitalize text-primary-darkest fw-bold">
+                                        executive seat chair
+                                    </div>
+                                    <del class="text-primary-darker">
+                                        $32.00
+                                    </del>
+                                </div>
+
                             </div>
 
                         </div>
-                        <div class="d-flex align-items-center flex-md-column flex-lg-row my-2 my-md-0 my-lg-2">
-                            <div class="flex-shrink-0 bg-accent mb-md-2 mb-lg-0">
-                                <img src="./assets/image/trending-products/image 19.png" alt="...">
-                            </div>
-                            <div class="flex-grow-1 ms-3 ms-md-0 ms-lg-3 text-md-center text-lg-start">
-                                <div class="text-capitalize text-primary-darkest fw-bold">
-                                    executive seat chair
-                                </div>
-                                <del class="text-primary-darker">
-                                    $32.00
-                                </del>
-                            </div>
-
-                        </div> <div class="d-flex align-items-center flex-md-column flex-lg-row">
-                            <div class="flex-shrink-0 bg-accent mb-md-2 mb-lg-0">
-                                <img src="./assets/image/trending-products/image 19.png" alt="...">
-                            </div>
-                            <div class="flex-grow-1 ms-3 ms-md-0 ms-lg-3 text-md-center text-lg-start">
-                                <div class="text-capitalize text-primary-darkest fw-bold">
-                                    executive seat chair
-                                </div>
-                                <del class="text-primary-darker">
-                                    $32.00
-                                </del>
-                            </div>
-
-                        </div>
-                       
-                     </div>
                     </div>
 
 
@@ -863,7 +861,7 @@
                     <div class="text-center">
                         <div class="text-capitalize text-primary-darkest fs-3 fw-bolder mb-3">get latest update by
                             subscribe our newsletter</div>
-                        <button type="button" class="btn btn-secondary btn-sm px-3 text-white text-capitalize">shop
+                        <button type="button" class="btn btn-secondary btn-sm px-3 text-light text-capitalize">shop
                             now</button>
                     </div>
                 </div>
