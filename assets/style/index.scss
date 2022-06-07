@@ -78,3 +78,6 @@ background-color: aquamarine;
   z-index: $zindex-fixed;
 
 }
+.text-primary-darkest:hover{
+  color: $secondary-darkest !important;
+}
